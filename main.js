@@ -49,7 +49,7 @@ var multiClassNames = {
 	clawbringerspellshot: "Hexecutioner",
 	clawbringersporewarden: "Wildfire",
 	clawbringerstabbomancer: "Clawstalker",
-	gravebornspellshot: "Deadshot",
+	gravebornspellshot: "",
 	gravebornsporewarden: "Morticulturalist",
 	gravebornstabbomancer: "Bonecarver",
 	spellshotsporewarden: "Sporceror",
@@ -658,9 +658,9 @@ function updateCharacterLevel() {
 	}
 	$("#charLevel").text(Math.min(Math.max(internalCharLevel, 1), 40));
 	if (unallocatedSkillPoints > 1) {
-		$("#unusedPoints").text(" (" + unallocatedSkillPoints + " unused Skill Points)");
+		$("#unusedPoints").text(" (" + unallocatedSkillPoints + " 포인트 남음)");
 	} else if (unallocatedSkillPoints == 1) {
-		$("#unusedPoints").text(" (1 unused Skill Point)");
+		$("#unusedPoints").text(" (1 포인트 남음)");
 	} else {
 		$("#unusedPoints").text("");
 	}
