@@ -49,7 +49,7 @@ var multiClassNames = {
 	clawbringerspellshot: "Hexecutioner",
 	clawbringersporewarden: "Wildfire",
 	clawbringerstabbomancer: "Clawstalker",
-	gravebornspellshot: "",
+	gravebornspellshot: "죽음의 명사수",
 	gravebornsporewarden: "Morticulturalist",
 	gravebornstabbomancer: "Bonecarver",
 	spellshotsporewarden: "Sporceror",
