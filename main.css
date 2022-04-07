@@ -311,6 +311,7 @@ em {
 	clear: both;
 }
 
+/* 스킬 트리 내 직업명과 투자한 포인트 수 */
 .className, .totalPoints {
 	font-size: 24px;
 	position: absolute;
@@ -510,6 +511,7 @@ button:active {
 	border-top: 1px solid #fff;
 }
 
+/* 하단부 스킬 모음집 폰트 크기 */
 #summaryContainer strong {
 	font-size: 24px;
 	font-weight: normal;
