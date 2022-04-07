@@ -126,14 +126,14 @@ function handleSwitchViewButton(event) {
 				$("#actionSkills").addClass("hidden");
 				$("#skillTrees").addClass("hidden");
 				$("#heroStats").removeClass("hidden");
-				$(this).text("View Skill Trees");
+				$(this).text("스킬 트리 보기");
 			}
 			break;
 		case "View Skill Trees":
 			$("#heroStats").addClass("hidden");
 			$("#actionSkills").removeClass("hidden");
 			$("#skillTrees").removeClass("hidden");
-			$(this).text("View Hero Stats");
+			$(this).text("영웅 능력치 보기");
 			break;
 	}
 }
