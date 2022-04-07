@@ -550,12 +550,8 @@ function updatePoints(skillHandle, change) {
 }
 function updateActionSkills() {
 	let actionSkillNames = [];
-	let actionSkillNames_kr = []; // kr name
 	$(".actionSkill > .description > h2").each(function(index, element) {
 		actionSkillNames[index] = $(element).text();
-	});
-	$(".actionSkill > .description > h3").each(function(index, element) {
-		actionSkillNames_kr[index] = $(element).text();
 	});
 	$(".actionSkill").each(function(index, element) {
 		if ($(this).find(".icon").length == 0) {
@@ -565,7 +561,7 @@ function updateActionSkills() {
 			$(this).find(".description h2").before('<object class="icon" data="images/' + className + "/" + imageName + '.' + imageType + '" type="image/' + imageType + '"></object>');
 		}
 		if ($(element).children(".label").length == 0) {
-			$(element).append('<div class="label">' + actionSkillNames_kr[index] + "</div>");
+			$(element).append('<div class="label">' + actionSkillNames[index] + "</div>");
 		}
 	});
 	$(".actionSkill").each(function(_, element) {

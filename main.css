@@ -405,7 +405,12 @@ em {
 	text-shadow: 2px 2px 8px rgb(255 1 255 / 70%);
 }
 
-.skill .label {
+/* 스킬 트리 내 축약어(.label) 및 설명 (.skill) */
+/* 한글폰트 스킬 설명 크기가 커서 .skill과 .label 분리 */
+.skill {
+	font-size: 12px;
+}
+.label {
 	font-size: 15px;
 }
 
