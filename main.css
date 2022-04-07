@@ -109,6 +109,10 @@ em {
 	font-size: 80%;
 }
 
+#header h3 {
+	font-size: 60%;
+}
+
 @media (max-width: 532px) {
 	#header h1 {
 		font-size: 8.3vw;
