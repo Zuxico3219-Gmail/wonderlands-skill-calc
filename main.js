@@ -121,7 +121,7 @@ function handleSwapTreeButton(event) {
 function handleSwitchViewButton(event) {
 	switch ($(this).text()) {
 		default:
-		case "View Hero Stats":
+		case "영웅 능력치 보기":
 			if ($("#primaryClassSelector").val() != "none" || $("#secondaryClassSelector").val() != "none") {
 				$("#actionSkills").addClass("hidden");
 				$("#skillTrees").addClass("hidden");
@@ -129,7 +129,7 @@ function handleSwitchViewButton(event) {
 				$(this).text("스킬 트리 보기");
 			}
 			break;
-		case "View Skill Trees":
+		case "스킬 트리 보기":
 			$("#heroStats").addClass("hidden");
 			$("#actionSkills").removeClass("hidden");
 			$("#skillTrees").removeClass("hidden");
