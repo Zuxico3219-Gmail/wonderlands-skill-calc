@@ -4,13 +4,13 @@
 		<h3>공포의 바람</h3>
 		<div>
 			페이트메이커가 회전하며 지속 시간 동안 주변 적들에게 페이트메이커가 장착한 <span class="gold">근접 무기</span>를 기반으로 하는 <span class="gold">근접 대미지</span>를 주기적으로 가하며, 일정 시간동안 <span class="gold">이동 속도</span>가 증가하며 <span class="cyan">둔화 면역</span>을 얻습니다.
-			<br><br>The Fatemaker may press their <span color="orange">Action Skill Button</span> again to cancel this <span class="orange">Action Skill</span> and <span class="gold">refund</span> a portion of the cooldown.
-			<br><br>Increases to <span class="gold">Ability Damage</span> apply to damage dealt by <span class="orange">Dreadwind</span>.
-			<br><br><span class="gold">Melee Damage:</span> 35.0% of Melee Weapon
-			<br><span class="gold">Melee Damage Frequency:</span> Every 0.35 seconds
-			<br><span class="gold">Movement Speed:</span> +20.0%
-			<br><span class="gold">Cooldown:</span> 24 seconds
-			<br><span class="gold">Duration</span> 6 seconds
+			<br><br>페이트메이커는 <span color="orange">액션 스킬 버튼</span>을 다시 눌러 이 <span class="orange">액션 스킬</span>을 취소하고 쿨다운을 <span class="gold">일부 줄일 수</span> 있습니다.
+			<br><br><span class="gold">능력 대미지</span>가 증가하면 <span class="orange">공포의 바람</span>이 가하는 대미지에도 적용됩니다.
+			<br><br><span class="gold">근접 대미지:</span> 근접 무기의 35.0%
+			<br><span class="gold">근접 대미지 빈도:</span> 0.35 초마다 적용
+			<br><span class="gold">이동 속도:</span> +20.0%
+			<br><span class="gold">쿨다운:</span> 24 초
+			<br><span class="gold">지속 시간</span> 6 초
 		</div>
 	</div>
 	<div class="points"></div>
@@ -18,21 +18,22 @@
 <div class="actionSkill" data-points="0" data-max="1">
 	<div class="description">
 		<h2>Feral Surge</h2>
+		<h3>야성의 충동</h3>
 		<div>
-			The Fatemaker leaps toward their target, dealing <span class="cyan">Frost Ability Damage</span> to all nearby enemies.
-			<br><br>Any non-Boss enemies damaged will be instantly killed if their <span class="gold">Total HP</span> is below a percentage.
-			<br><br>If <span class="orange">Feral Surge</span> kills an enemy, its cooldown is reset.
-			<br><br><span class="gold">Instant Kill Threshold:</span> 20% Total HP
-			<br><span class="gold">Cooldown:</span> 32 seconds
+			페이트메이터가 대상을 향해 도약하여 근처의 모든 적에게 <span class="cyan">서리 능력 대미지</span>를 가합니다.
+			<br><br><span class="gold">총 체력</span>이 일정 비율 이하인 보스가 아닌 모든 적은 <span class="gold">즉사합니다</span>.
+			<br><br>If <span class="orange">야성의 충동</span>으로 적을 처치하면 해당 스킬의 쿨다운이 초기화됩니다.
+			<br><br><span class="gold">즉사 발동 조건:</span> 총 체력의 20%
+			<br><span class="gold">쿨다운:</span> 32 초
 		</div>
 	</div>
 	<div class="points"></div>
 </div>
 <div class="classFeat">
-	Rage of the Ancients: Using an Action Skill causes the Fatemaker to become <span class="orange">Enraged</span>, adding bonus <span class="cyan">Frost Damage</span> to their attacks. <span class="orange">Enrage Duration</span> will not deplete while an Action Skill is active and ends if the Fatemaker enters <span class="gold">죽음의 문턱</span>. Activating an Action Skill when already <span class="orange">Enraged</span> restores a portion of the <span class="orange">Enrage</span> timer.
-	<br><br><span class="gold">Bonus Frost Damage: </span> 10.0%
-	<br><span class="gold">Enrage Duration:</span> 15 seconds
-	<br><span class="gold">Enrage Restoration:</span> 35.0%
+	고대인의 분노: <span class="orange">액션 스킬 시작</span> 시 페이트메이커가 <span class="orange">광폭화</span>합니다. <span class="orange">광폭화</span> 중에는 일정 시간 동안 <span class="cyan">보너스 서리 대미지</span>를 가합니다. <span class="orange">광폭화 지속 시간</span>은 <span class="orange">액션 스킬</span> 활성화 중 감소하지 않으며, 페이트메이커가 <span class="gold">죽음의 문턱</span> 상태에 들어가면 종료됩니다. 이미 <span class="orange">광폭화</span>했을 때 <span class="orange">액션 스킬</span>을 활성화하면 <span class="orange">광폭화</span> 타이머의 일부가 회복됩니다.
+	<br><br><span class="gold">보너스 서리 대미지: </span> 10.0%
+	<br><span class="gold">광폭화 지속 시간:</span> 15 초
+	<br><span class="gold">광폭화 재발동 회복:</span> 35.0%
 </div>
 <div class="skillTree">
 	<div class="bgLayer"></div>
@@ -43,8 +44,9 @@
 			<div class="skill" data-points="0" data-max="5">
 				<div class="description">
 					<h2>Ancestral Frost</h2>
+					<h3>선조의 서리</h3>
 					<div>
-						<em data-base="+4" data-pct="true"></em> <span class="cyan">Frost Damage</span><span class="perLevel"> per level</span>
+						<span class="perLevel"></span><em data-base="+4" data-pct="true"></em> <span class="cyan">서리 대미지</span>
 					</div>
 				</div>
 				<div class="points"></div>
@@ -52,9 +54,10 @@
 			<div class="skill" data-points="0" data-max="5">
 				<div class="description">
 					<h2>Savagery</h2>
+					<h3>야만성</h3>
 					<div>
-						<em data-base="+4" data-pct="true"></em> <span class="gold">Melee Damage</span><span class="perLevel"> per level</span>
-						<br><em data-base="+1"></em> <span class="gold">Enrage Duration</span> (seconds)<span class="perLevel"> per level</span>
+						<span class="perLevel"></span><em data-base="+4" data-pct="true"></em> <span class="gold">근접 대미지</span>
+						<br><span class="perLevel"></span><span class="gold">광폭화 지속 시간</span> <em data-base="+1"></em> 초
 					</div>
 				</div>
 				<div class="points"></div>
@@ -62,9 +65,10 @@
 			<div class="skill" data-points="0" data-max="3">
 				<div class="description">
 					<h2>Unyielding</h2>
+					<h3>꿋꿋함</h3>
 					<div>
-						<em data-base="+0.5" data-fixed="true" data-pct="true"></em> <span class="gold">Missing Health Regeneration</span><span class="perLevel"> per level</span>
-						<br><br>While <span class="orange">Enraged</span>, this effect is doubled.
+						<span class="perLevel"></span><span class="gold">잃은 체력 재생</span> 초당 <em data-base="+0.5" data-fixed="true" data-pct="true"></em> 
+						<br><br><span class="orange">광폭화</span> 상태에서는 이 효과가 두 배로 증가합니다.
 					</div>
 				</div>
 				<div class="points"></div>
@@ -74,8 +78,10 @@
 			<div class="skill" data-points="0" data-max="3">
 				<div class="description">
 					<h2>Ice Breaker</h2>
+					<h3>얼음깨기</h3>
 					<div>
-						Up to <em data-base="+10" data-fixed="true" data-pct="true"></em> increased <span class="gold">Damage Dealt</span> against <span class="cyan">Frozen</span> enemies<span class="perLevel"> per level</span>
+						<span class="gold">대미지:</span> 얼어붙은 적을 상대로 <span class="perLevel"></span>최대 <em data-base="+10" data-fixed="true" data-pct="true"></em>
+						<br/><br/>적이 완전히 <span class="cyan">빙결</span> 상태에 가까워질수록 <span class="gold">대미지</span>가 증가합니다.
 					</div>
 				</div>
 				<div class="points"></div>
@@ -83,10 +89,11 @@
 			<div class="skill" data-points="0" data-max="5">
 				<div class="description">
 					<h2>The Old Ways</h2>
+					<h3>옛 방식</h3>
 					<div>
-					Up to <em data-base="+6" data-fixed="true" data-pct="true"></em> <span class="gold">Bonus Damage</span> when very close to enemy<span class="perLevel"> per level</span>
-					<br/>Up to <em data-base="+6" data-fixed="true" data-pct="true"></em> <span class="gold">Damage Reduction</span> when very close to enemy<span class="perLevel"> per level</span>
-					<br/><br/>The closer the enemy is, the greater the bonus.
+					<span class="gold">보너스 대미지:</span> 적과 매우 가까울 때 <span class="perLevel"></span><em data-base="+6" data-fixed="true" data-pct="true"></em> 
+					<br/><span class="gold">피격 대미지 저감:</span> 적에게 매우 근접했을 때 <span class="perLevel"></span><em data-base="+6" data-fixed="true" data-pct="true"></em>  
+					<br/><br/>적이 가까울수록 보너스도 큽니다.
 					</div>
 				</div>
 				<div class="points"></div>
@@ -94,10 +101,11 @@
 			<div class="skill" data-points="0" data-max="3">
 				<div class="description">
 					<h2>Instinct</h2>
+					<h3>본능</h3>
 					<div>
-						<span class="gold">Reload Speed:</span> <em data-base="+4" data-fixed="true" data-pct="true"></em><span class="perLevel"> per level</span>
-						<br/><span class="gold">Weapon Swap Speed:</span> <em data-base="+10" data-fixed="true" data-pct="true"></em><span class="perLevel"> per level</span>
-						<br><br>While <span class="orange">Enraged</span>, this effect is doubled.
+						<span class="gold">재장전 속도:</span> <span class="perLevel"></span><em data-base="+4" data-fixed="true" data-pct="true"></em>
+						<br/><span class="gold">무기 교체 속도:</span> <span class="perLevel"></span><em data-base="+10" data-fixed="true" data-pct="true"></em>
+						<br><br><span class="orange">광폭화</span> 상태에서는 이 효과가 두 배로 증가합니다.
 					</div>
 				</div>
 				<div class="points"></div>
@@ -107,30 +115,36 @@
 			<div class="skill" data-points="0" data-max="3">
 				<div class="description">
 					<h2>Cold Snap</h2>
+					<h3>한파</h3>
 					<div>
-						<span class="gold">Movement Speed:</span> <em data-base="+3" data-fixed="true" data-pct="true"></em><span class="perLevel"> per level</span>
-						<br/><span class="cyan">Frost Efficiency:</span> <em data-base="+8" data-fixed="true" data-pct="true"></em><span class="perLevel"> per level</span>
-						<br><br>While <span class="orange">Enraged</span>, this effect is doubled.
+						<span class="gold">이동 속도:</span> <span class="perLevel"></span><em data-base="+3" data-fixed="true" data-pct="true"></em>
+						<br/><span class="cyan">서리 효율:</span> <span class="perLevel"></span><em data-base="+8" data-fixed="true" data-pct="true"></em>
+						<br><br><span class="orange">광폭화</span> 상태에서는 이 효과가 두 배로 증가합니다.
 					</div>
 				</div>
 				<div class="points"></div>
 			</div>
 			<div class="skill" data-points="0" data-max="1">
-				<div class="description"><h2>Unarmored Defense</h2><div>A portion of the Fatemaker's <span class="gold">Ward</span> is Reserved and cannot be restored, but their <span class="red">Maximum Health</span> is increased by a percentage of the reserved amount.
-				<br><br><span class="red">Health</span> can no longer be Reserved.
-				<br><br><span class="gold">Ward Reserved: </span> <em data-base="50" data-fixed="true" data-pct="true"></em><span class="perLevel"></span>
-				<br/><span class="gold">Maximum Health: </span> <em data-base="150" data-fixed="true" data-pct="true"></em> of reserved Ward amount
+				<div class="description">
+					<h2>Unarmored Defense</h2>
+					<h3>비무장 방어</h3>
+					<div>
+						페이트메이커가 사용하는 <span class="gold">와드</span>의 일부가 <span class="gold">비축</span>되며 회복이 불가능하지만 현재 <span class="red">최대 체력</span>이 증가합니다.
+						<br><br><span class="red">체력</span>은 더 이상 <span class="gold">비축</span>할 수 없습니다.
+						<br><br><span class="gold">비축한 와드:</span> <span class="perLevel"></span><em data-base="50" data-fixed="true" data-pct="true"></em>
+						<br/><span class="gold">최대 체력:</span> 비축된 와드 용량의 <em data-base="150" data-fixed="true" data-pct="true"></em>
+					</div>
 				</div>
-			</div>
 				<div class="points"></div>
 			</div>
 			<div class="skill" data-points="0" data-max="3">
 				<div class="description">
 					<h2>Blood Frenzy</h2>
+					<h3>피의 광란</h3>
 					<div>
-						<span class="gold">Kill Skill:</span> A portion of the Fatemaker's active <span class="orange">Enrage</span> timer and a percentage of their <span class="red">Maximum Health</span> are restored.
-						<br/><br/><span class="gold">Maximum Health Restored:</span> <em data-base="+3" data-pct="true" data-fixed="true"></em>
-						<br/><span class="gold">Enrage Duration Restored:</span> <em data-base="+1"></em> second(s)<span class="perLevel"> per level</span>
+						<span class="gold">킬 스킬:</span> 페이트메이커의 <span class="orange">광폭화</span> 타이머 및 <span class="red">최대 체력</span> 일부가 회복됩니다.
+						<br/><br/><span class="gold">회복되는 최대 체력:</span> <em data-base="+3" data-pct="true" data-fixed="true"></em>
+						<br/><span class="gold">광폭화 타이머 복구량:</span> <span class="perLevel"></span><em data-base="+1"></em> 초
 					</div>
 				</div>
 				<div class="points"></div>
@@ -141,9 +155,10 @@
 			<div class="skill" data-points="0" data-max="5">
 				<div class="description">
 					<h2>Ancient Fury</h2>
+					<h3>고대의 분노</h3>
 					<div>
-						<span class="red">Maximum Health: </span><em data-base="+4" data-fixed="true" data-pct="true"></em><span class="perLevel"> per level</span>
-						<br/><span class="gold">Area Damage: </span><em data-base="+5" data-fixed="true" data-pct="true"></em><span class="perLevel"> per level</span>
+						<span class="red">최대 체력:</span> <span class="perLevel"></span><em data-base="+4" data-fixed="true" data-pct="true"></em>
+						<br/><span class="gold">광역 대미지:</span> <span class="perLevel"></span><em data-base="+5" data-fixed="true" data-pct="true"></em>
 					</div>
 				</div>
 				<div class="points"></div>
@@ -151,9 +166,10 @@
 			<div class="skill" data-points="0" data-max="1">
 				<div class="description">
 					<h2>Relentless Rage</h2>
+					<h3>가차없는 분노</h3>
 					<div>
-						Dealing damage while in <span class="gold">죽음의 문턱</span> partially restores the <span class="gold">죽음의 문턱</span> meter. The more damage is dealt, the greater the restoration. Restoration amount is decreased over time.
-						<br><br>Killing an enemy while in <span class="gold">죽음의 문턱</span> will cause the Fatemaker to become <span class="orange">Enraged</span>.
+						<span class="gold">죽음의 문턱</span> 상태에서 대미지를 주면 <span class="gold">죽음의 문턱</span> 게이지가 일부 차오릅니다. 가한 대미지가 많을수록 차오르는 양도 증가합니다. 게이지 증가량은 시간이 지나면 사라집니다.
+						<br><br><span class="gold">죽음의 문턱</span> 중 적을 처치하면 페이트메이커가 <span class="orange">광폭화</span>합니다.
 					</div>
 				</div>
 				<div class="points"></div>
@@ -163,10 +179,11 @@
 			<div class="skill" data-points="0" data-max="1">
 				<div class="description">
 					<h2>Blast Chill</h2>
+					<h3>폭발 냉기</h3>
 					<div>
-						Whenever the Fatemaker deals <span class="gold">Melee Damage</span> to an enemy, there is a 20.0% chance to release a <span class="cyan">Frost Nova</span> dealing <span class="cyan">Frost Ability Damage</span> to nearby enemies.
-						<br><br><span class="cyan">Frost Nova</span> cannot <span class="gold">Critically Hit</span>.
-						<br/><br><span class="gold">Frost Nova Ability Damage:</span> <em data-base="25" data-pct="true"></em> of Melee Damage Dealt
+						페이트메이커가 적에게 <span class="gold">근접 대미지</span>를 가할 때마다 20.0% 확률로 근처 적에게 <span class="cyan">서리 능력 대미지</span>를 주는 <span class="cyan">서리 고리</span>가 방출됩니다.
+						<br><br><span class="cyan">서리 고리</span>는 <span class="gold">치명타로 적중</span>할 수 없습니다.
+						<br/><br><span class="gold">서리 능력 대미지:</span> 가한 근접 대미지의 <em data-base="25" data-pct="true"></em>
 					</div>
 				</div>
 				<div class="points"></div>
@@ -174,10 +191,11 @@
 			<div class="skill" data-points="0" data-max="5">
 				<div class="description">
 					<h2>Iron Squall</h2>
+					<h3>강철 돌풍</h3>
 					<div>
-						<span class="gold">Fire Rate:</span> <em data-base="+3" data-fixed="true" data-pct="true"></em><span class="perLevel"> per level</span>
-						<br/><span class="gold">Melee Attack Speed:</span> <em data-base="+3" data-fixed="true" data-pct="true"></em><span class="perLevel"> per level</span>
-						<br><br>While <span class="orange">Enraged</span>, this effect is doubled.
+						<span class="gold">발사 속도:</span> <span class="perLevel"></span><em data-base="+3" data-fixed="true" data-pct="true"></em>
+						<br/><span class="gold">근접 공격 속도:</span> <span class="perLevel"></span><em data-base="+3" data-fixed="true" data-pct="true"></em>
+						<br><br><span class="orange">광폭화</span> 상태에서는 이 효과가 두 배로 증가합니다.
 					</div>
 				</div>
 				<div class="points"></div>
@@ -189,10 +207,11 @@
 			<div class="skill" data-points="0" data-max="1">
 				<div class="description">
 					<h2>Blood of the Fallen</h2>
+					<h3>몰락한 자의 피</h3>
 					<div>
-						<span class="gold">Kill Skill:</span> The Fatemaker's remaining <span class="gold">Action Skill Cooldown</span> is reduced by a percentage. If an Action Skill is currently active, restore its duration instead.
-						<br/><br/><span class="gold">Remaining Action Skill Cooldown Reduction: </span><em data-base="20" data-fixed="true" data-pct="true"></em>
-						<br/><span class="gold">Action Skill Duration Restored: </span><em data-base="20" data-fixed="true" data-pct="true"></em>
+						<span class="gold">킬 스킬:</span> 페이트메이커의 <span class="gold">액션 스킬 쿨다운</span> 남은 시간이 일정 비율만큼 감소합니다. <span class="orange">액션 스킬</span>이 활성화되어 있다면 대신 지속 시간이 일정 비율 늘어납니다.
+						<br/><br/><span class="gold">남은 액션 스킬 쿨다운 감소: </span><em data-base="20" data-fixed="true" data-pct="true"></em>
+						<br/><span class="gold">액션 스킬 지속 시간 회복: </span><em data-base="20" data-fixed="true" data-pct="true"></em>
 					</div>
 				</div>
 				<div class="points"></div>

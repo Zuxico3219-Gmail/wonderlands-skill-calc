@@ -311,7 +311,9 @@ em {
 	clear: both;
 }
 
-/* 스킬 트리 내 직업명과 투자한 포인트 수 */
+/*
+	스킬 트리 내 직업명과 투자한 포인트 수
+*/
 .className, .totalPoints {
 	font-size: 24px;
 	position: absolute;
@@ -371,6 +373,11 @@ em {
 	height: 108px;
 }
 
+
+/*
+	h2 영문 밑에 h3 한글 추가
+	h3 한글 아래로 margin, padding, border 옮김
+*/
 .description h2 {
 	font-size: 24px;
 }
@@ -378,10 +385,10 @@ em {
 /*
 	영문 스킬명 밑에 추가한 한글 스킬명
 	영어랑 같은 폰트 크기로 하면 글자가 너무 커서 줄였음
-	24px -> 18px
+	24px -> 20px
 */
 .description h3 {
-	font-size: 18px;
+	font-size: 20px;
 	margin-bottom: 5px;
 	padding-bottom: 5px;
 	border-bottom: 1px solid #fff;
@@ -410,8 +417,10 @@ em {
 	text-shadow: 2px 2px 8px rgb(255 1 255 / 70%);
 }
 
-/* 스킬 트리 내 축약어(.label) 및 설명 (.skill) */
-/* 한글폰트 스킬 설명 크기가 커서 .skill과 .label 분리 */
+/*
+	스킬 트리 내 축약어(.label) 및 설명 (.skill) 
+	한글폰트 스킬 설명 크기가 커서 .skill과 .label 분리
+*/
 .skill {
 	font-size: 14px;
 }
@@ -521,7 +530,9 @@ button:active {
 	border-top: 1px solid #fff;
 }
 
-/* 하단부 스킬 모음집 폰트 크기 */
+/*
+	하단부 스킬 모음집 폰트 크기
+*/
 #summaryContainer strong {
 	font-size: 24px;
 	font-weight: normal;
