@@ -24,8 +24,11 @@
 	scrollbar-color: #454a4d #202324;
 }
 
+/*
+	20px/23px -? 15px->18px
+*/
 body {
-	font: 20px/23px Homenaje, Impact, sans-serif;
+	font: 15px/18px Homenaje, Impact, sans-serif;
 	display: flex;
 	flex-direction: column;
 	min-width: 440px;
