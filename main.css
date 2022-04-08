@@ -375,6 +375,11 @@ em {
 	font-size: 24px;
 }
 
+/*
+	영문 스킬명 밑에 추가한 한글 스킬명
+	영어랑 같은 폰트 크기로 하면 글자가 너무 커서 줄였음
+	24px -> 18px
+*/
 .description h3 {
 	font-size: 18px;
 	margin-bottom: 5px;
