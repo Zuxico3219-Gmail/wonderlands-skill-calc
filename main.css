@@ -478,7 +478,7 @@ em {
 	26px -> 22px
 */
 select, option, button {
-	height: 26px;
+	height: 22px;
 	padding: 0 6px;
 	cursor: pointer;
 	border: 1px solid #fff;
