@@ -422,7 +422,7 @@ em {
 	한글폰트 스킬 설명 크기가 커서 .skill과 .label 분리
 */
 .skill {
-	font-size: 14px;
+	font-size: 15px;
 }
 .label {
 	font-size: 15px;
@@ -472,6 +472,11 @@ em {
 	margin: 0 2.5px;
 }
 
+/*
+	선택자, 버튼 글자.
+	기본 26px는 한글이 너무 큼
+	26px -> 22px
+*/
 select, option, button {
 	height: 26px;
 	padding: 0 6px;
