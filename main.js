@@ -295,7 +295,7 @@ function handleClassSelection(event) {
 }
 function updateFeatTable() {
 	if ($("#primaryClassSelector").val() == "none" && $("#secondaryClassSelector").val() == "none") {
-		$("#errorMessage").text("No class selected.").removeClass("disabled");
+		$("#errorMessage").text("선택된 직업 없음").removeClass("disabled");
 		$("#heroStats").addClass("disabled");
 		$("#featSummaryHeader").text("");
 		$("#primaryClassFeat").html("").css({ "padding": "0", "width": "0" });
