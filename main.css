@@ -26,6 +26,7 @@
 
 /*
 	20px/23px -? 16px->23px
+	전체 기본 폰트 크기
 */
 body {
 	font: 18px/23px Homenaje, Impact, sans-serif;
@@ -315,7 +316,7 @@ em {
 }
 
 /*
-	en: 24px
+	en: 24px -> kr:20px
 	스킬 트리 내 직업명과 투자한 포인트 수
 
 */
