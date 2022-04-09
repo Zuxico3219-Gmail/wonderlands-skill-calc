@@ -1,8 +1,9 @@
 <div class="actionSkill" data-points="0" data-max="1">
 	<div class="description">
 		<h2>Ambi-Hextrous</h2>
+		<h3>양손 주술사</h3>
 		<div>
-			The Fatemaker may equip a <span class="gold">주문</span> in their inventory. Whenever the Spellshot presses their <span class="orange">Action Skill Button</span>, they cast that <span class="gold">주문</span>.
+			페이트메이커가 인벤토리에 있는 두 번째 <span class="gold">주문</span>을 장착할 수 있게 됩니다. 페이트메이커가 <span class="orange">액션 스킬 버튼</span>을 누를 때 마다 해당 <span class="gold">주문</span>을 시전합니다.
 		</div>
 	</div>
 	<div class="points"></div>
@@ -10,9 +11,10 @@
 <div class="actionSkill" data-points="0" data-max="1">
 	<div class="description">
 		<h2>Polymorph</h2>
+		<h3>변이</h3>
 		<div>
-			The Fatemaker turns an enemy into a <span class="orange">Skeep</span> for a few 초. If they are <span class="gold">Immune</span>, the Fatemaker instantly casts a <span class="gold">free Spell</span> on that enemy and gains two stacks of <span class="orange">Spellweaving</span>.
-			<br><br>While <span class="orange">Polymorph</span> is active, the Fatemaker and their allies have a chance to cast a <span class="gold">free Spell</span> after dealing <span class="gold">총기 대미지</span> to the <span class="orange">Polymorphed</span> target. This effect is guaranteed the first time the Fatemaker deals <span class="gold">총기 대미지</span>. After the Fatemaker casts a <span class="gold">주문</span> this way, they gain a stack of <span class="orange">Spellweaving</span>.
+			페이트메이커가 몇 초 동안 적을 <span class="orange">스킵</span>으로 변이시킵니다. 적이 이 효과에 <span class="gold">면역</span>인 경우 페이트메이커는 즉시 해당 적에게 <span class="gold">무료 주문</span>을 시전하고 무료 <span class="orange">주문 엮기</span> 2중첩을 얻습니다.
+			<br><br><span class="orange">변이</span> 활성화 중에는 페이트메이커와 아군이 <span class="orange">변이</span>된 대상에게 <span class="gold">총기 대미지</span>를 줄 경우 일정 확률로 <span class="gold">무료 주문</span>을 시전합니다. 이 효과는 페이트메이커가 변이된 대상에게 <span class="gold">총기 대미지</span>를 처음 입힐 때 반드시 발동합니다. 이런 식으로 <span class="gold">주문</span>을 시전한 뒤, 페이트메이커는 <span class="orange">주문 엮기</span> 중첩을 하나 획득합니다.
 			<br><br><span class="gold">쿨다운:</span> 28 초
 			<br><span class="gold">지속 시간:</span> 16 초
 		</div>
@@ -20,12 +22,12 @@
 	<div class="points"></div>
 </div>
 <div class="classFeat">
-	Spellweaving: Casting a <span class="gold">주문</span> or <span class="gold">reloading</span> a weapon grants the Spellshot a stack of <span class="orange">Spellweaving</span>, increasing <span class="gold">주문 대미지</span>. <span class="orange">Spellweaving</span> stacks automatically decay after a few 초.
-	<br><br>Casting a <span class="gold">Repeating Spell</span> has a chance to award additional <span class="orange">Spellweaving</span> stacks with each <span class="gold">Repeating Cast</span>.
-	<br><br><span class="gold">주문 대미지:</span> +10% per stack
-	<br><span class="gold">Stack 지속 시간:</span> 10 초
+	주문 엮기: <span class="gold">주문</span>을 시전하거나 무기를 <span class="gold">재장전</span>하면 페이트메이커가 <span class="orange">주문 엮기</span> 중첩을 얻습니다. 중첩된 <span class="gold">주문 엮기</span>마다 <span class="gold">주문 대미지</span>가 증가하며, 이 중첩은 몇 초 후에 자동으로 사라집니다.
+	<br><br><span class="gold">주문 반복</span> 시전 시 일정 확률로 <span class="gold">반복 시전</span> 시마다 추가로 <span class="orange">주문 엮기</span> 중첩을 얻습니다.
+	<br><br><span class="gold">주문 대미지:</span> 중첩당 +10%
+	<br><span class="gold">중첩 지속 시간:</span> 10 초
 	<br><span class="gold">최대 중첩:</span> 5
-	<br><span class="gold">Repeating Cast Chance:</span> 25%
+	<br><span class="gold">반복 시전 확률:</span> 25%
 </div>
 <div class="skillTree">
 	<div class="bgLayer"></div>
@@ -36,8 +38,9 @@
 			<div class="skill" data-points="0" data-max="5">
 				<div class="description">
 					<h2>Spell Sniper</h2>
+					<h3>주문 저격수</h3>
 					<div>
-						<em data-base="+12" data-pct="true"></em> <span class="gold">Spell 치명타 확률</span><span class="perLevel"></span>
+						<em data-base="+12" data-pct="true"></em> <span class="gold">주문 치명타 확률</span><span class="perLevel"></span>
 					</div>
 				</div>
 				<div class="points"></div>
@@ -45,9 +48,10 @@
 			<div class="skill" data-points="0" data-max="3">
 				<div class="description">
 					<h2>Magic Bullets</h2>
+					<h3>마법 탄환</h3>
 					<div>
-						A portion of all increases the Fatemaker receives to <span class="gold">주문 대미지</span> is also applied to their <span class="gold">총기 대미지</span>.
-						<br><br><span class="gold">총기 대미지:</span> <em data-base="+15" data-pct="true"></em> of 주문 대미지<span class="perLevel"></span>
+						페이트메이커가 <span class="gold">주문 대미지</span>에 받는 모든 보너스가 <span class="gold">총기 대미지</span>에도 적용됩니다.
+						<br><br><span class="gold">총기 대미지:</span> 주문 대미지의 <em data-base="+15" data-pct="true"></em><span class="perLevel"></span>
 					</div>
 				</div>
 				<div class="points"></div>
@@ -55,6 +59,7 @@
 			<div class="skill" data-points="0" data-max="5">
 				<div class="description">
 					<h2>Prestidigitation</h2>
+					<h3>요술</h3>
 					<div>
 						<em data-base="+8" data-pct="true"></em> <span class="gold">재장전 속도</span><span class="perLevel"></span>
 					</div>
@@ -66,9 +71,10 @@
 			<div class="skill" data-points="0" data-max="5">
 				<div class="description">
 					<h2>Font of Mana</h2>
+					<h3>마나의 세례반</h3>
 					<div>
-						<em data-base="+4" data-pct="true"></em> <span class="gold">Spell 쿨다운 Rate</span><span class="perLevel"></span>
-						<br><em data-base="+3" data-pct="true"></em> <span class="gold">Action Skill 쿨다운 Rate</span><span class="perLevel"></span>
+						<em data-base="+4" data-pct="true"></em> <span class="gold">주문 쿨다운 감소율</span><span class="perLevel"></span>
+						<br><em data-base="+3" data-pct="true"></em> <span class="gold">액션 스킬 쿨다운 감소율</span><span class="perLevel"></span>
 					</div>
 				</div>
 				<div class="points"></div>
@@ -76,9 +82,10 @@
 			<div class="skill" data-points="0" data-max="1">
 				<div class="description">
 					<h2>Mage Armor</h2>
+					<h3>마법사 갑옷</h3>
 					<div>
-						Whenever the Fatemaker gains a stack of <span class="orange">Spellweaving</span>, a portion of their <span class="gold">와드</span> is restored.
-						<br><br><span class="gold">와드 Restore:</span> 10%
+						페이트메이커가 <span class="orange">주문 엮기</span> 중첩을 얻을 때마다 <span class="gold">와드</span> 일부가 회복됩니다.
+						<br><br><span class="gold">와드 복원:</span> 10%
 					</div>
 				</div>
 				<div class="points"></div>
@@ -86,8 +93,9 @@
 			<div class="skill" data-points="0" data-max="5">
 				<div class="description">
 					<h2>Just Warming Up</h2>
+					<h3>준비 운동</h3>
 					<div>
-						<em data-base="+0.8" data-fixed="true" data-pct="true"></em> <span class="gold">발사 속도</span><span class="perLevel"></span> per <span class="orange">Spellweaving Stack</span>
+						<span class="orange">주문 엮기 중첩</span> 당 <span class="gold">발사 속도</span> <em data-base="+0.8" data-fixed="true" data-pct="true"></em><span class="perLevel"></span> 
 					</div>
 				</div>
 				<div class="points"></div>
@@ -98,8 +106,9 @@
 			<div class="skill" data-points="0" data-max="1">
 				<div class="description">
 					<h2>Glass Cannon</h2>
+					<h3>유리 대포</h3>
 					<div>
-						The Fatemaker no longer automatically recharges their <span class="gold">와드</span> but they gain <em data-base="+30" data-pct="true"></em> <span class="gold">주문 대미지</span>.
+						페이트메이커가 보유한 <span class="gold">와드</span>가 이제 자동으로 충전되지 않지만, <span class="gold">주문 대미지</span>가 <em data-base="+30" data-pct="true"></em> 증가합니다.
 					</div>
 				</div>
 				<div class="points"></div>
@@ -110,9 +119,10 @@
 			<div class="skill" data-points="0" data-max="5">
 				<div class="description">
 					<h2>Imbued Weapon</h2>
+					<h3>마법 주입 무기</h3>
 					<div>
-						Whenever the Fatemaker casts a <span class="gold">주문</span>, their <span class="gold">Guns</span> deal <em data-base="+2" data-pct="true"></em> <span class="gold">보너스 대미지</span> of that <span class="gold">Spell's</span> element for 8 초.
-						<br><br>This effect stacks once for each <span class="gold">주문</span> equipped.
+						<span class="gold">주문</span>을 시전할 때마다 8 초 동안 페이트메이커의 <span class="gold">총기</span>가 해당 <span class="gold">주문</span> 속성의 <span class="gold">보너스 대미지</span> <em data-base="+2" data-pct="true"></em>를 가합니다.
+						<br><br>이 효과는 장비한 <span class="gold">주문</span>마다 한 번씩 중첩됩니다.
 					</div>
 				</div>
 				<div class="points"></div>
@@ -120,8 +130,9 @@
 			<div class="skill" data-points="0" data-max="1">
 				<div class="description">
 					<h2>High Thread Count</h2>
+					<h3>하이 스레드 카운트</h3>
 					<div>
-						<em data-base="+3"></em> <span class="orange">Max Spellweaving Stacks</span>
+						<em data-base="+3"></em> <span class="orange">최대 주문 엮기 중첩</span>
 					</div>
 				</div>
 				<div class="points"></div>
@@ -129,10 +140,11 @@
 			<div class="skill" data-points="0" data-max="5">
 				<div class="description">
 					<h2>War Caster</h2>
+					<h3>전쟁술사</h3>
 					<div>
-						<span class="gold">킬 스킬:</span> Whenever the Fatemaker kills an enemy, there's a chance their currently equipped weapon will be <span class="gold">instantly reloaded</span>. This chance is increased per <span class="orange">Spellweaving Stack</span>.
-						<br><br><span class="gold">Reload Chance:</span> <em data-base="12" data-pct="true"></em><span class="perLevel"></span>
-						<br><span class="gold">Additional Reload Chance:</span> 2% per <span class="orange">Spellweaving Stack</span>
+						<span class="gold">킬 스킬:</span> 페이트메이커가 적을 처치할 때마다 일정 확률로 현재 장착한 <span class="gold">총</span>이 <span class="gold">즉시 재장전</span>됩니다. 이 확률은 <span class="orange">주문 엮기</span> 중첩 수에 따라 증가합니다.
+						<br><br><span class="gold">재장전 확률:</span> <em data-base="12" data-pct="true"></em><span class="perLevel"></span>
+						<br><span class="gold">추가 재장전 확률:</span> 중첩당 2%
 					</div>
 				</div>
 				<div class="points"></div>
@@ -143,8 +155,10 @@
 			<div class="skill" data-points="0" data-max="3">
 				<div class="description">
 					<h2>Double Knot</h2>
+					<h3>이중 매듭</h3>
 					<div>
-						Whenever the Fatemaker scores a <span class="gold">Critical Hit</span> with a <span class="gold">주문</span> they deal <em data-base="+7" data-pct="true"></em> <span class="gold">Bonus 총기 대미지</span> of their <span class="gold">Gun's</span> element.
+						<span class="gold">주문</span>으로 <span class="gold">치명타</span>를 가할 때마다 페이트메이커가 지닌 <span class="gold">총</span> 속성의 <span class="gold">보너스 총기 대미지</span>를 가합니다.
+						<br><br><span class="gold">보너스 총기 대미지:</span> 가한 대미지의 <em data-base="+7" data-pct="true"></em>
 					</div>
 				</div>
 				<div class="points"></div>
@@ -152,8 +166,9 @@
 			<div class="skill" data-points="0" data-max="1">
 				<div class="description">
 					<h2>One Slot, One Kill</h2>
+					<h3>원 슬롯 원 킬</h3>
 					<div>
-						<em data-base="+4" data-pct="true"></em> <span class="gold">총기 대미지</span> per <span class="orange">Spellweaving Stack</span>
+						<span class="orange">주문 엮기</span> 중첩당 <span class="gold">총기 대미지</span> <em data-base="+4" data-pct="true"></em>
 					</div>
 				</div>
 				<div class="points"></div>
@@ -164,8 +179,9 @@
 			<div class="skill" data-points="0" data-max="1">
 				<div class="description">
 					<h2>Sever the Thread</h2>
+					<h3>실 끊기</h3>
 					<div>
-						<span class="gold">Gun Critical Hits</span> have a <em data-base="+15" data-pct="true"></em> chance to <span class="gold">instantly reset</span> all <span class="gold">Spell 쿨다운s</span>. This skill has a 5 second 쿨다운.
+						<span class="gold">총기 치명타</span> 발생 시 <em data-base="+15" data-pct="true"></em> 확률로 모든 <span class="gold">주문 쿨다운</span>이 <span class="gold">즉시 초기화</span>됩니다. 이 스킬은 쿨다운이 짧습니다.
 					</div>
 				</div>
 				<div class="points"></div>
