@@ -657,7 +657,7 @@ button:active {
 .stamp {
 	font-size: 80%;
 	position: absolute;
-	display: inline-block;
+	display: none; /* inline-block; */
 	overflow: visible;
 	width: 0;
 	height: 0;
