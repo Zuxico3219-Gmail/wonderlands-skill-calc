@@ -42,7 +42,7 @@ var hasMultiClass = false;
 var multiClassNames = {
 	brrzerkerclawbringer: "Hammerzerker",
 	brrzerkergraveborn: "서리 약탈자",
-	brrzerkerspellshot: "Chillmonger",
+	brrzerkerspellshot: "한기 광술사",
 	brrzerkersporewarden: "서리 자연인",
 	brrzerkerstabbomancer: "Frostshivver",
 	clawbringergraveborn: "어둠 인도자",
