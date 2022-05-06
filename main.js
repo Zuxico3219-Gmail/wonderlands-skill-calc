@@ -44,17 +44,17 @@ var multiClassNames = {
 	brrzerkergraveborn: "서리 약탈자",
 	brrzerkerspellshot: "한기 광술사",
 	brrzerkersporewarden: "서리 자연인",
-	brrzerkerstabbomancer: "Frostshivver",
+	brrzerkerstabbomancer: "서리 칼침술사",
 	clawbringergraveborn: "어둠 인도자",
 	clawbringerspellshot: "Hexecutioner",
-	clawbringersporewarden: "Wildfire",
-	clawbringerstabbomancer: "Clawstalker",
+	clawbringersporewarden: "들불술사",
+	clawbringerstabbomancer: "비룡 추적자",
 	gravebornspellshot: "죽음의 명사수",
 	gravebornsporewarden: "죽음 원예가",
 	gravebornstabbomancer: "뼈 조각가",
-	spellshotsporewarden: "Sporceror",
-	spellshotstabbomancer: "Trapscallion",
-	sporewardenstabbomancer: "Mistdancer",
+	spellshotsporewarden: "포자술사",
+	spellshotstabbomancer: "함정 도적",
+	sporewardenstabbomancer: "안개 춤꾼",
 }
 var backstoryModifiers = {
 	none: {
