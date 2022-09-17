@@ -42,7 +42,7 @@ var hasMultiClass = false;
 var multiClassNames = {
 	blightcallerbrrzerker: "Bogbarian",
 	blightcallerclawbringer: "Blight Knight",
-	blightcallergraveborn: "Blightgeist",
+	blightcallergraveborn: "역병의 심령",
 	blightcallerspellshot: "Rotshot",
 	blightcallersporewarden: "Shroomwraith",
 	blightcallerstabbomancer: "Bladecaller",
