@@ -399,6 +399,9 @@ function finishHTML() {
 		case "stabbomancer":
 			$("#primaryTree .colorLayer").css({ "background-color": "rgba(255, 127, 0, 0.65)" });
 			break;
+		case "blightcaller":
+			$("#primaryTree .colorLayer").css({ "background-color": "rgba(0, 192, 127, 0.5)" });
+			break;
 	}
 	switch (secondaryClass.val()) {
 		default:
@@ -422,6 +425,9 @@ function finishHTML() {
 			break;
 		case "stabbomancer":
 			$("#secondaryTree .colorLayer").css({ "background-color": "rgba(255, 127, 0, 0.65)" });
+			break;
+		case "blightcaller":
+			$("#secondaryTree .colorLayer").css({ "background-color": "rgba(0, 192, 127, 0.5)" });
 			break;
 	}
 }
@@ -620,7 +626,7 @@ function updatePassiveSkills(treeHandle) {
 						sum = sum.toFixed(0);
 					}
 					let plus = ($(this).attr("data-base")[0] == "+" ? "+" : "");
-					$(this).text((sum > 0 ? plus : (sum == 0 ? "" : "-")) + sum + ($(this).attr("data-pct") ? "%" : ""));
+					$(this).text((sum > 0 ? plus : "") + sum + ($(this).attr("data-pct") ? "%" : ""));
 				}
 			});
 			let skillName = $(this).find(".description h2").text();
