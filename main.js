@@ -40,6 +40,12 @@ var allocatedSkillPoints = 0;
 var unallocatedSkillPoints = 0;
 var hasMultiClass = false;
 var multiClassNames = {
+	blightcallerbrrzerker: "Bogbarian",
+	blightcallerclawbringer: "Blight Knight",
+	blightcallergraveborn: "Blightgeist",
+	blightcallerspellshot: "Rotshot",
+	blightcallersporewarden: "Shroomwraith",
+	blightcallerstabbomancer: "Bladecaller",
 	brrzerkerclawbringer: "Hammerzerker",
 	brrzerkergraveborn: "서리 약탈자",
 	brrzerkerspellshot: "한기 광술사",
